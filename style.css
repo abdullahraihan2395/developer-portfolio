@@ -12,7 +12,7 @@ span {
     color: rgb(227, 151, 10);
 }
 
-section {
+.flaxible-container {
     display: flex;
     margin: 80px;
     
@@ -61,4 +61,28 @@ section {
         
         
         
+     }
+     .oran{
+        color: rgb(219, 147, 13);
+     }
+     .experience{
+        box-shadow: 10px 10px 40px gray;
+        width: 45%;
+        margin-left: 10px;
+        margin-right:10px;
+        padding-left:10px; 
+        border-left: 7px solid blue;
+       
+     }
+     .experience-area{
+        background-image: url(images/exp-bg.png);
+        background-repeat: no-repeat;
+        background-position: left;
+        
+     }
+     #pro{
+        border-left: 7px solid tomato;
+     }
+     footer{
+        text-align: center;
      }
